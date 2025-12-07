@@ -1,26 +1,16 @@
 import streamlit as st
-
-st.title("Overview")
-st.write(
-    "This page gives a quick overview of the app structure and purpose."
+from core import (
+    get_theme,
+    apply_theme_css,
+    get_filtered_data,
+    compute_kpis,
+    show_overview,
 )
 
-st.markdown(
-    """
-### App Structure
+theme = get_theme(False)
+apply_theme_css(theme)
 
-- `app.py` → Home page (this is what runs with `streamlit run app.py`)
-- `pages/` → Additional pages (automatically discovered by Streamlit)
-- `data/` → Example dataset(s)
-- `.streamlit/config.toml` → Theme and server settings
-- `requirements.txt` → Python dependencies
-- `README.md` → Setup instructions for users
+df = get_filtered_data()
+kpis = compute_kpis(df)
 
-### How to extend
-
-- Duplicate this file to make a new page  
-- Change the title and content  
-- Add your own logic, visualizations, or widgets
-"""
-)
-
+show_overview(theme, df, kpis)

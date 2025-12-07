@@ -1,30 +1,14 @@
 import streamlit as st
 
+# This MUST be the first Streamlit command in the whole app
 st.set_page_config(
-    page_title="Streamlit App Template",
+    page_title="Diabetes Care Performance Dashboard",
     page_icon="📊",
-    layout="centered",
+    layout="wide",
 )
 
-st.title("Streamlit App Template")
+st.title("Diabetes Care Performance Dashboard")
 st.write(
-    "Welcome! This is a minimal multi-page Streamlit app template. "
-    "Use the navigation in the sidebar to switch between pages."
+    "Use the navigation in the left sidebar to open **Overview**, "
+    "**Data Explorer**, **EDA**, and **About** pages."
 )
-
-st.markdown(
-    """
-### What’s in this app?
-
-- **Overview** – explains what the app is about  
-- **Data Explorer** – shows an example dataset and simple chart  
-- **About** – info about the project / authors  
-
-You can use this as a starting point for your own projects or for teaching.
-"""
-)
-
-st.info(
-    "Tip: open the `pages/` folder in your editor to see how each page is defined."
-)
-
