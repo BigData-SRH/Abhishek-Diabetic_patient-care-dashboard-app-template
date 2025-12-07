@@ -1,3 +1,34 @@
+# Diabetes Readmission Performance Dashboard
+
+This Streamlit dashboard provides an interactive analysis of diabetic inpatient encounters from the 
+**Diabetes 130-US Hospitals (1999–2008)** dataset. It allows users to explore readmission risk, 
+length of stay, polypharmacy rates, and demographic patterns.
+
+---
+
+## 🔍 Features
+
+### 📊 KPI Overview
+- 30-Day Readmission Rate  
+- Average Length of Stay (Readmitted)  
+- Polypharmacy Rate (10+ medications)
+
+### 📈 Exploratory Data Analysis (EDA)
+Includes:
+- Medication distribution
+- Readmission breakdown
+- Correlation heatmap
+
+### 🧭 Data Explorer
+View and filter the entire dataset.
+
+### 📘 About Section
+Dataset explanation, APA citation, and project purpose.
+
+---
+
+## 📁 Project Structure
+
 # Streamlit App Template
 
 This repository contains a clean starter template for building a multi-page Streamlit web application.  
