@@ -5,7 +5,7 @@ from pathlib import Path
 from io import BytesIO
 from datetime import datetime
 
-# Optional PDF export (for KPI report)
+# PDF export (for KPI report)
 try:
     from reportlab.lib.pagesizes import letter
     from reportlab.pdfgen import canvas
