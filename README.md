@@ -1,29 +1,68 @@
-# Diabetes Readmission Performance Dashboard
+# 🩺 Diabetes Care Performance Dashboard  
+### **A Streamlit-powered analytics dashboard for diabetic patient readmission patterns**
 
-This Streamlit dashboard provides an interactive analysis of diabetic inpatient encounters from the 
-**Diabetes 130-US Hospitals (1999–2008)** dataset. It allows users to explore readmission risk, 
-length of stay, polypharmacy rates, and demographic patterns.
+🚀 **Live App:**  
+👉 **https://diabetic-patient-care-dashboard.streamlit.app/**
+
+This interactive dashboard provides actionable insights into **hospital readmission, length of stay, and medication burden** among diabetic patients. Designed as part of an academic project in *Big Data & Business Intelligence*, it showcases both analytical depth and intuitive UI/UX.
 
 ---
 
-## 🔍 Features
+## 📌 **Overview**
 
-### 📊 KPI Overview
+Hospital readmissions among diabetic patients are a major healthcare challenge associated with increased costs and clinical risk.  
+This dashboard allows users to analyze:
+
+- **30-day readmission rates**
+- **Average length of stay (LOS) for readmitted patients**
+- **Polypharmacy prevalence among readmitted patients**
+- **Odds ratio between polypharmacy & readmission**
+- **Demographic & admission-type breakdowns**
+- **Exploratory Data Analysis (EDA)** including distributions, trends, and correlations
+
+Users can dynamically filter results based on:
+- Age group  
+- Gender  
+- Admission type  
+
+All KPIs, charts, and metrics update **instantly** based on the selected filters.
+
+---
+
+## 📊 **Key Features**
+
+### ⭐ **KPI Cards**
 - 30-Day Readmission Rate  
-- Average Length of Stay (Readmitted)  
-- Polypharmacy Rate (10+ medications)
+- Average LOS (Readmitted)  
+- Polypharmacy Rate (Readmitted)  
 
-### 📈 Exploratory Data Analysis (EDA)
+### 🔍 **Filter-Based Interactivity**
+Refine insights using multi-select filters:
+- Age groups  
+- Gender  
+- Admission types  
+
+### 📈 **Visualization Suite**
+- Distribution plots  
+- Polypharmacy vs. readmission odds ratio table  
+- Medication & LOS charts  
+- EDA visualizations  
+
+### 📂 **Data Explorer Page**
+An interactive data table allowing:
+- Column filtering  
+- Sorting  
+- Download options  
+
+### 🧪 **EDA Page**
 Includes:
-- Medication distribution
-- Readmission breakdown
-- Correlation heatmap
+- Histograms  
+- Boxplots  
+- Correlation matrices  
+- Trend analysis  
 
-### 🧭 Data Explorer
-View and filter the entire dataset.
-
-### 📘 About Section
-Dataset explanation, APA citation, and project purpose.
+### 📄 **About Page**
+Contains project details, dataset citation, and contributor information.
 
 ---
 
